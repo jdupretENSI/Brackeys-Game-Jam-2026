@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "782826392",
+    "Type": "User",
+    "GUID": "{35E3C6FD-7A7B-4969-874F-97C2A8B408C8}",
+    "Language": "SFX",
+    "Hash": "{2474359B-FB31-43FC-19DB-7624AEF83ED1}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Default",
+    "ShortName": "Default",
+    "Path": "Default.bnk",
+    "Media": [
+     {
+      "Id": "566650141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "448222__toxicfilmzsrsounds__hip-hop-kick.wav",
+      "CachePath": "C1/{C105E97A-06C6-AE32-A217-7865C99BF55F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2752533807",
+      "Name": "Play_TestSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TestSound",
+      "GUID": "{2F925AB8-CA2C-4501-BBC8-68DF0CA02AFA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.07868481",
+      "DurationMax": "0.07868481",
+      "MediaRefs": [
+       {
+        "Id": "566650141"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9ECB34A5-A888-AA5C-FEC6-40A173DBA4DC}"
+ }
+}
