@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{F7E518C2-F4C4-42DB-AD17-85F1199CF880}" WorkUnitID="{87E179DA-9962-4CCF-971B-0EFA7E0A8CAD}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="MUS" ID="{EBFA2433-FD07-4913-941D-8BC5FDCFE9FE}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{F7E518C2-F4C4-42DB-AD17-85F1199CF880}" WorkUnitID="{87E179DA-9962-4CCF-971B-0EFA7E0A8CAD}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="SFX" ID="{B1F712BE-1761-4E03-91C7-062B6A4146F2}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{F7E518C2-F4C4-42DB-AD17-85F1199CF880}" WorkUnitID="{87E179DA-9962-4CCF-971B-0EFA7E0A8CAD}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

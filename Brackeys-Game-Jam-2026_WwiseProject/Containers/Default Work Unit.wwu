@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B6BC328-0C7F-4825-BB3D-9486DB747A17}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{2B6BC328-0C7F-4825-BB3D-9486DB747A17}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{EE618721-738D-44E5-A605-556625A7D193}" ShortID="1056143019">
+					<ChildrenList>
+						<RandomSequenceContainer Name="SFX_Sheep_Jump" ID="{FB7CC56A-2645-488D-94EF-8A0F582462A2}" ShortID="202145370">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ECE46B3F-9CFB-4E57-B91A-1F46CE4A13C7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Sheep_Jump_1" ID="{1CB72F2C-4C72-426A-999C-200032F908B6}" ShortID="783943399">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 2" ID="{256FCDF5-6422-4663-B424-C0E92A2C6622}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="672918854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 2" ID="{256FCDF5-6422-4663-B424-C0E92A2C6622}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Sheep_Jump_2" ID="{ABD61F81-54C7-493F-AAFD-410372883008}" ShortID="1073696537">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{5C022722-554A-47B8-88D5-26DAAEE253FE}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="11756738"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{5C022722-554A-47B8-88D5-26DAAEE253FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Sheep_Jump_3" ID="{56275BD7-C6F2-4C44-907C-1CA39FB48E64}" ShortID="273331678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{90FF817A-0C72-46E7-80CB-4AC3885D0432}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="377579099"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{90FF817A-0C72-46E7-80CB-4AC3885D0432}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Sheep_Jump_4" ID="{08EAF05F-9A85-4BA3-91EF-AEF24A2E7D30}" ShortID="84412259">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 5" ID="{A799203A-172A-4BC1-AC72-B5147BBA2068}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753599705"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 5" ID="{A799203A-172A-4BC1-AC72-B5147BBA2068}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SFX_Sheep_Land" ID="{132FB66E-47EA-4B86-B69C-761187D20964}" ShortID="701435163">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2665FB05-3972-4C6C-8744-5CEBD7C8773A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Sheep_Land_1" ID="{79E8044F-467D-42A1-A50B-B9E051C0ACE6}" ShortID="266625873">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Feet, Land, Jump, Ground SND17409 1" ID="{B827EF37-D116-4756-BFC7-A18ADDD63BB0}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Feet, Land, Jump, Ground SND17409 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265162813"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Feet, Land, Jump, Ground SND17409 1" ID="{B827EF37-D116-4756-BFC7-A18ADDD63BB0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Sheep_Land_2" ID="{3D633762-DC34-416E-9D81-F4FE9A2BA94C}" ShortID="589839600">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{002AD720-8737-40E0-8581-969FFF59BE0B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00B17FAF-B5C8-4F6E-99CC-FA5DD3DB6C21}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Feet, Land, Jump, Ground SND17409 2" ID="{76FA9301-6023-4810-9CE6-DBD1F17274E9}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Feet, Land, Jump, Ground SND17409 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="672478504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Feet, Land, Jump, Ground SND17409 2" ID="{76FA9301-6023-4810-9CE6-DBD1F17274E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

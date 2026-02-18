@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DF8B7C24-E56C-49AD-AAC7-CC602DAD8CFE}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DF8B7C24-E56C-49AD-AAC7-CC602DAD8CFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Sheep_Jump" ID="{D2E29EC1-4851-4BE5-AF77-5476F94ACE1D}">
+					<ChildrenList>
+						<Action Name="" ID="{4A1923F9-260F-4CF3-ACDA-0E493EBC0AF4}" ShortID="826386244">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sheep_Jump" ID="{FB7CC56A-2645-488D-94EF-8A0F582462A2}" WorkUnitID="{2B6BC328-0C7F-4825-BB3D-9486DB747A17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Sheep_Land" ID="{890176FF-CBDC-41F2-AD67-3D406346B2CB}">
+					<ChildrenList>
+						<Action Name="" ID="{C853F917-C3C0-47F8-AC40-E477FDECC1A4}" ShortID="990169925">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Sheep_Land" ID="{132FB66E-47EA-4B86-B69C-761187D20964}" WorkUnitID="{2B6BC328-0C7F-4825-BB3D-9486DB747A17}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
