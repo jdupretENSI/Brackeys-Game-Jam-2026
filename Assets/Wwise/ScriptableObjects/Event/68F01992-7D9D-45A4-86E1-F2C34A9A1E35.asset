@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba4bb6067bc892a44857ace015454246, type: 3}
+  m_Name: 68F01992-7D9D-45A4-86E1-F2C34A9A1E35
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_UI_Menu_Accept
+  id: 4044401305
+  guid: 68F01992-7D9D-45A4-86E1-F2C34A9A1E35
+  IsInUserDefinedSoundBank: 1
