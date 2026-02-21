@@ -3,8 +3,13 @@
   <CopySoundBanksAsPreBuildStep>true</CopySoundBanksAsPreBuildStep>
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <WwiseStreamingAssetsPath>Audio\GeneratedSoundBanks</WwiseStreamingAssetsPath>
+<<<<<<< Updated upstream
   <RootOutputPath>../Brackeys-Game-Jam-2026_WwiseProject/GeneratedSoundBanks/</RootOutputPath>
   <CreatedPicker>false</CreatedPicker>
+=======
+  <RootOutputPath>WwiseData/Bank</RootOutputPath>
+  <CreatedPicker>true</CreatedPicker>
+>>>>>>> Stashed changes
   <CreateWwiseGlobal>true</CreateWwiseGlobal>
   <CreateWwiseListener>true</CreateWwiseListener>
   <ObjectReferenceAutoCleanup>true</ObjectReferenceAutoCleanup>
@@ -24,7 +29,7 @@
   <PackageSource />
   <AddressableBankFolder>WwiseData/Bank</AddressableBankFolder>
   <UseCustomBuildScript>false</UseCustomBuildScript>
-  <AddressableAssetBuilderPath>Assets/AddressableAssetsData/DataBuilders/BuildScriptWwisePacked.asset</AddressableAssetBuilderPath>
+  <AddressableAssetBuilderPath>Assets/AddressableAssetsData/DataBuilders\BuildScriptWwisePacked.asset</AddressableAssetBuilderPath>
   <AutomaticallyUpdateExternalSourcesPath>false</AutomaticallyUpdateExternalSourcesPath>
   <ExternalSourcesPath>WwiseData/Bank</ExternalSourcesPath>
   <EnableUninstallationPrompt>true</EnableUninstallationPrompt>

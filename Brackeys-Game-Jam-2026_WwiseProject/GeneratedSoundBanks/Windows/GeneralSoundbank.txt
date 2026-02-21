@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2842361443	Play_Sheep_FS			\Default Work Unit\General_Sounds\Play_Sheep_FS	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	263748825	Sheep_FS_1	.cache\4D\{4D0E3636-70F5-4FD1-DB63-D0663C4D892A}.wem		\Containers\Default Work Unit\Sheep_FS\Sheep_FS_1		12640
+	420401347	Sheep_FS_3	.cache\C2\{C2D1AF51-7675-989D-7B1C-D5C15F584342}.wem		\Containers\Default Work Unit\Sheep_FS\Sheep_FS_3		9332
+	444734418	Sheep_FS_2	.cache\00\{00924B27-D495-8A04-76C0-9EB6EF04FC73}.wem		\Containers\Default Work Unit\Sheep_FS\Sheep_FS_2		18886
+	556331042	Sheep_FS_4	.cache\B3\{B3669710-D01E-3F91-F881-37187125C773}.wem		\Containers\Default Work Unit\Sheep_FS\Sheep_FS_4		14108
+	637050286	Sheep_FS_5	.cache\53\{53F1AE5A-1982-8050-9689-B40AB11464E0}.wem		\Containers\Default Work Unit\Sheep_FS\Sheep_FS_5		10802
+
