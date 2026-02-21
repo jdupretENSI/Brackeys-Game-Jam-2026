@@ -17,12 +17,13 @@
 # ======================== 
 # WWise
 # ======================== 
-*.ak *.akd
+<!--*.ak *.akd
 *.bnk
 *.wsettings
 *.prof
 *.validationcache
 .WwiseProject
+-->
 
 Assets/Wwise/Editor/ProjectData/
 Assets/Wwise/Editor/Plugins/
