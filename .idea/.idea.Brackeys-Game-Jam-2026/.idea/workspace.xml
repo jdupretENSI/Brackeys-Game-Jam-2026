@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f715cd-f7c9-4a2a-8dcf-482219e324bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Gloves.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Gloves.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Resources/WwiseLoggerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Resources/WwiseLoggerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Resources/WwiseLoggerSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Resources/WwiseLoggerSettings.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Ilia/Lvl refrences/Ld ref.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Ilia/Lvl refrences/Ld ref.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/DreamSheep_V0.1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/DreamSheep_V0.1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/HomeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/HomeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Neo/Neo sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Neo/Neo sandbox.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/New Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/New Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +131,7 @@
       <workItem from="1771599223308" duration="1126000" />
       <workItem from="1771633026745" duration="2619000" />
       <workItem from="1771635696332" duration="5000" />
+      <workItem from="1771687512586" duration="547000" />
     </task>
     <servers />
   </component>
@@ -132,6 +140,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>

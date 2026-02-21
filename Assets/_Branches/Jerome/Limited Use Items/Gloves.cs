@@ -168,7 +168,7 @@ public class Gloves : MonoBehaviour
         Vector2 knockback = knockbackDirection * knockbackForce;
         knockback.y = upwardForce; // Override Y for consistent upward launch
         
-        enemyRb.velocity = Vector2.zero; // Reset current velocity
+        enemyRb.linearVelocity = Vector2.zero; // Reset current velocity
         enemyRb.AddForce(knockback, ForceMode2D.Impulse);
         
         // Optional: Add hit effect
