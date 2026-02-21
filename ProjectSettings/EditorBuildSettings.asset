@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Branches/Neo/MainMenu.unity
+    guid: 48d8a6ce03f847b46aeb19d84153f31b
+  - enabled: 1
+    path: Assets/_Branches/Jerome/DreamSheep_V0.1.unity
+    guid: 2b2ef78f419100a41824ab9d67f4a4ba
+  - enabled: 0
     path: Assets/_Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
