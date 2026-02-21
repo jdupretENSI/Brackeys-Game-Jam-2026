@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 93dbc7dc76c41554baceacea932f25a8
+=======
+<<<<<<<< Updated upstream:Assets/Wwise/Editor.meta
+guid: d6485cd2c3c82274d9f00cf3967f54aa
+========
+guid: 792281475ec84cf4b9fcf296c4dc2455
+>>>>>>>> Stashed changes:Assets/StreamingAssets.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

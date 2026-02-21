@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: fde4f9d7fb162434581c714f5ea4d3eb
+=======
+<<<<<<<< Updated upstream:Assets/Wwise/Editor/ProjectData.meta
+guid: d8326f5b323dbd94cb9ac47f24ad953a
+========
+guid: c8152c9cfae214a4281383bf3f9223a2
+>>>>>>>> Stashed changes:Assets/Wwise/API/Editor/PluginActivator/WebGL.meta
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

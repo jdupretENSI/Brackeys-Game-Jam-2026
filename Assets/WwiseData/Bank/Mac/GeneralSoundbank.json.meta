@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/WwiseData/Bank/Mac/GeneralSoundbank.json.meta
 guid: 8626ef021fce91f47bcb6cb61e19194f
+=======
+guid: bb95e0d4aab8a4e4693233cccff2200b
+>>>>>>> Stashed changes:Assets/Wwise/LauncherInfo.json.meta
 TextScriptImporter:
   externalObjects: {}
   userData: 

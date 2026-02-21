@@ -22,9 +22,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: AK.Wwise.Unity.Addressables::AK.Wwise.Unity.WwiseAddressables.AkWwiseAddressablesInitializationSettings
   PlatformSettingsNameList:
   - Mac
+  - Web
   - Windows
   PlatformSettingsList:
   - {fileID: 11400000, guid: 696c2f25607dbd646a8d244e4b301f9f, type: 2}
+  - {fileID: 11400000, guid: 87bd5d6e1b6bbd34c93454ffb1bd45fb, type: 2}
   - {fileID: 11400000, guid: 7cde059400d359344a981574ebd5fa70, type: 2}
   InvalidReferencePlatforms:
   - Web
