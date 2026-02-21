@@ -14,10 +14,8 @@
 
 **Play as a sheep lost in a shifting dream world where reality bends and safety fades.**
 
-- Explore strange, distorted versions of a bedroom
-that slowly transforms into a surreal nightmare.
+- Explore strange slowly transforms into a surreal nightmare.
 
-- Use dreamlike objects to reshape the environment,
-overcome obstacles, and survive long enough to wake up.
+- Use dreamlike objects to overcome obstacles, and to wake up.
 
 - ⚠️ The more damage you take, the more unstable the world becomes.
