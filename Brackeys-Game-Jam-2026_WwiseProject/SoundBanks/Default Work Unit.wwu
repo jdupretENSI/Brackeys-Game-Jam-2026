@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8954F2A-BBB0-447D-918E-5EC412CCD96D}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F8954F2A-BBB0-447D-918E-5EC412CCD96D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="DreamSheepSoundbank" ID="{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="ALL" ID="{09FDE441-68BB-4DF7-ACEF-C97692C4EB51}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

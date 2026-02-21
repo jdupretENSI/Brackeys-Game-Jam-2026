@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1FC390B-1AB6-4DA4-AAE9-41FDFC6E32B7}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{A1FC390B-1AB6-4DA4-AAE9-41FDFC6E32B7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{1C8F3476-9305-4229-99A1-D095981340BB}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MainMenu" ID="{A6734E3B-77CD-4D0A-BA8D-671AFED96E26}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_All_SFX" ID="{73C41C97-F9FB-41B4-A2BC-D776A1FCF85D}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_MainMenu" ID="{6EAA5808-6674-49A0-9178-4B704728FC77}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Wolf_Idle_Loop" ID="{93F35E06-E979-4AAE-A3B8-CEA51D492921}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Wolf_Bite" ID="{49A8A668-A74B-4C39-B05E-25D991D30EA8}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Sheep_Hurt" ID="{490F9BA8-BB34-4384-AD1A-39340CA155A4}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
