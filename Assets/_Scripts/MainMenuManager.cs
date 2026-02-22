@@ -7,7 +7,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("DreamSheep_V0.1");
+        SceneManager.LoadScene("Level 1");
     }
 
     public void OpenSettings()
