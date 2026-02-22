@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+
+    public GameManager gameManager;
+
     [Header("Player")]
     [SerializeField] private Inventory _inventory;
     
@@ -46,7 +49,13 @@ public class PlayerController : MonoBehaviour
     {
         _land.Post(gameObject);
     }
-    
+
+    public void OnInteract() // ← SANS paramètre !
+    {
+        Debug.Log("E détecté !");
+        gameManager?.Interact();
+    }
+
     // Called automatically by the Input System when using "Send Messages" behavior
     void OnMove(InputValue value)
     {
