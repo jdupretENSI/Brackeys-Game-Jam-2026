@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6884152855023504720}
   - component: {fileID: 7996701845938179632}
-  - component: {fileID: 9074742470951668754}
   m_Layer: 0
   m_Name: Mesh bed
   m_TagString: Untagged
@@ -92,21 +91,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &9074742470951668754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4137996571034992461}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94f085c48d7ae8842b75c0f44dd33720, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  lit: {fileID: 4137996571034992461}
-  litRenderer: {fileID: 7996701845938179632}
-  counterText: {fileID: 0}
 --- !u!1 &5390850325123435992
 GameObject:
   m_ObjectHideFlags: 0
