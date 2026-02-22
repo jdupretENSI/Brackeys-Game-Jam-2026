@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8713324158773785668}
   - component: {fileID: 3508670151637653236}
   - component: {fileID: 7042792687053207173}
+  - component: {fileID: 1240512639247785669}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -151,6 +152,22 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!111 &1240512639247785669
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803601251093074188}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 1207c2471f90b8e4493c1bd039ac2782, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &5254199072926798503
 GameObject:
   m_ObjectHideFlags: 0
