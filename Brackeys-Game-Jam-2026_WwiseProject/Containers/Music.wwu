@@ -722,6 +722,10 @@
 							</ObjectLists>
 						</MusicSwitchContainer>
 						<MusicPlaylistContainer Name="MainMenu" ID="{A943F8B6-1A70-4B61-BFAE-32D39F686B95}" ShortID="1055443021">
+							<PropertyList>
+								<Property Name="Tempo" Type="Real64" Value="119"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A4DBD941-7C3D-42B3-B9B7-288C636F1E13}"/>
@@ -731,7 +735,24 @@
 								</Reference>
 								<Reference Name="PlaylistRoot">
 									<Custom>
-										<MusicPlaylistItem Name="" ID="{42D6DFDB-E0E5-42CD-9B03-70F3007BC4BB}" ShortID="177830088"/>
+										<MusicPlaylistItem Name="" ID="{42D6DFDB-E0E5-42CD-9B03-70F3007BC4BB}" ShortID="177830088">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{4D887B30-86D5-4921-849F-03B7E516010B}" ShortID="418327241">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="0"/>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Segment">
+															<ObjectRef Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+														</Reference>
+													</ReferenceList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
 									</Custom>
 								</Reference>
 								<Reference Name="TransitionRoot">
@@ -753,12 +774,7 @@
 							<ChildrenList>
 								<MusicSegment Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" ShortID="427802593">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="97594.5458183273"/>
-										<Property Name="PlaybackSpeed" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
+										<Property Name="EndPosition" Type="Real64" Value="158602.949179672"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -820,7 +836,7 @@
 											<MusicCue Name="Exit Cue" ID="{84422841-CFAA-40D6-B4A6-582BE4344F99}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="65168.0672268907"/>
+													<Property Name="TimeMs" Type="Real64" Value="72605.0420168067"/>
 												</PropertyList>
 											</MusicCue>
 										</ObjectList>

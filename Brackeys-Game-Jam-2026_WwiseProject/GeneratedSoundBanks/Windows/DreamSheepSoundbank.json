@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}",
     "Language": "SFX",
-    "Hash": "{D790CFC2-3114-BF97-70D5-8BB2C5AD153B}",
+    "Hash": "{7BBC5B02-442F-9353-148C-80296C17D8CC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DreamSheepSoundbank",
     "ShortName": "DreamSheepSoundbank",
     "Path": "DreamSheepSoundbank.bnk",
@@ -292,9 +292,7 @@
       "Name": "Play_MainMenu",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_MainMenu",
       "GUID": "{A6734E3B-77CD-4D0A-BA8D-671AFED96E26}",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "735028830"
@@ -550,6 +548,6 @@
     ]
    }
   ],
-  "FileHash": "{79A52082-6EE6-7F4F-B1B2-12ADD3FD870A}"
+  "FileHash": "{1F69D971-7C47-8055-1B0D-CC5305D6E455}"
  }
 }
