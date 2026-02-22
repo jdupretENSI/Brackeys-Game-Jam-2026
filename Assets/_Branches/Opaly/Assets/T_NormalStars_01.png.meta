@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: c0d16a33413524649a66f50fe46e3b6c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4804381564484606055
+    second: T_NormalStars_01_0
+  - first:
+      213: -1610049818100792097
+    second: T_NormalStars_01_1
+  - first:
+      213: 6044122309835473568
+    second: T_NormalStars_01_2
+  - first:
+      213: -1439464886033226004
+    second: T_NormalStars_01_3
+  - first:
+      213: 7507663120192930088
+    second: T_NormalStars_01_4
+  - first:
+      213: -4017855562300853762
+    second: T_NormalStars_01_5
+  - first:
+      213: 2317410873341349260
+    second: T_NormalStars_01_6
+  - first:
+      213: -2694748938893704422
+    second: T_NormalStars_01_7
+  - first:
+      213: 1325295876066791035
+    second: T_NormalStars_01_8
+  - first:
+      213: 3543175853633759986
+    second: T_NormalStars_01_9
+  - first:
+      213: -8986024538950153249
+    second: T_NormalStars_01_10
+  - first:
+      213: 6830735671495080515
+    second: T_NormalStars_01_11
+  - first:
+      213: 5156676237508233085
+    second: T_NormalStars_01_12
+  - first:
+      213: -1716081418376702983
+    second: T_NormalStars_01_13
+  - first:
+      213: 194377892263460314
+    second: T_NormalStars_01_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_NormalStars_01_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 963
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685a8404979ca240800000000000000
+      internalID: 4804381564484606055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_1
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 954
+        width: 63
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48b698834f7a9e0800000000000000
+      internalID: -1610049818100792097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 874
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2c1c8b73901e350800000000000000
+      internalID: 6044122309835473568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_3
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 865
+        width: 81
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce66751105ef50ce0800000000000000
+      internalID: -1439464886033226004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_4
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 705
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821866c94d3903860800000000000000
+      internalID: 7507663120192930088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_5
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 703
+        width: 57
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1fa3257a5bd38c0800000000000000
+      internalID: -4017855562300853762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 586
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d832049e8192020800000000000000
+      internalID: 2317410873341349260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_7
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 571
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1341621e145a9ad0800000000000000
+      internalID: -2694748938893704422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_8
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 365
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e404bd395646210800000000000000
+      internalID: 1325295876066791035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_9
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 342
+        width: 88
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fae4949aa3eb2130800000000000000
+      internalID: 3543175853633759986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 245
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbcee4ba4a3b4380800000000000000
+      internalID: -8986024538950153249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_11
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 239
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34abd0607e5abce50800000000000000
+      internalID: 6830735671495080515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_12
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 66
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77406e77b1309740800000000000000
+      internalID: 5156676237508233085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_13
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 57
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3120cca014f28e0800000000000000
+      internalID: -1716081418376702983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_NormalStars_01_14
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 92
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add7d84c9a192b200800000000000000
+      internalID: 194377892263460314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      T_NormalStars_01_0: 4804381564484606055
+      T_NormalStars_01_1: -1610049818100792097
+      T_NormalStars_01_10: -8986024538950153249
+      T_NormalStars_01_11: 6830735671495080515
+      T_NormalStars_01_12: 5156676237508233085
+      T_NormalStars_01_13: -1716081418376702983
+      T_NormalStars_01_14: 194377892263460314
+      T_NormalStars_01_2: 6044122309835473568
+      T_NormalStars_01_3: -1439464886033226004
+      T_NormalStars_01_4: 7507663120192930088
+      T_NormalStars_01_5: -4017855562300853762
+      T_NormalStars_01_6: 2317410873341349260
+      T_NormalStars_01_7: -2694748938893704422
+      T_NormalStars_01_8: 1325295876066791035
+      T_NormalStars_01_9: 3543175853633759986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
