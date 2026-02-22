@@ -2040,11 +2040,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3925365157485624382, guid: 914fc5f0d824b2c4dba57e5c6188c01e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.9792366
+      value: 4.42
       objectReference: {fileID: 0}
     - target: {fileID: 3925365157485624382, guid: 914fc5f0d824b2c4dba57e5c6188c01e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.662441
+      value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: 3925365157485624382, guid: 914fc5f0d824b2c4dba57e5c6188c01e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2080,6 +2080,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6120226738386256507, guid: 914fc5f0d824b2c4dba57e5c6188c01e, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120226738386256507, guid: 914fc5f0d824b2c4dba57e5c6188c01e, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2397,10 +2401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b7f392d6843fa48a332e5a9afc0675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAudioListener
-  isDefaultListener: 1
-  bOverrideScalingFactor: 0
-  scalingFactor: -1
-  listenerId: 0
 --- !u!114 &1743695910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,18 +2413,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185f080192cdc474590fc509c095885b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!114 &1743695911
 MonoBehaviour:
   m_ObjectHideFlags: 0
