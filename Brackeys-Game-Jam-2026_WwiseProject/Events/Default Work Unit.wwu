@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="ALL" ID="{09FDE441-68BB-4DF7-ACEF-C97692C4EB51}" ShortID="18738601">
+					<ChildrenList>
+						<Event Name="Play_Sheep_Jump" ID="{01C496C9-474C-4CDB-9846-B3FFECB78734}">
+							<ChildrenList>
+								<Action Name="" ID="{D58D9C49-C93E-4B5E-B7B0-D75E3EEE6CD7}" ShortID="270597310">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_Jump" ID="{7BD86E29-0C4D-4D5A-B5A4-2F5CC64F205B}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Hover" ID="{A8FED9BC-DC5D-4D79-9933-178B92D64B59}">
+							<ChildrenList>
+								<Action Name="" ID="{5E1C8B4C-E45A-4C05-86B6-0887981C0975}" ShortID="1030352388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Hover" ID="{315900F1-B688-4C85-9BCA-C0B7914C93E5}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Sheep_Land" ID="{84E2E585-8898-438B-A199-7F9339D67A5C}">
+							<ChildrenList>
+								<Action Name="" ID="{2FA70E34-3216-402C-B1FB-AF3CF96078C3}" ShortID="275296719">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.01"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_Jump" ID="{7BD86E29-0C4D-4D5A-B5A4-2F5CC64F205B}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2F90E01F-49EF-4C36-BBBC-15639CCA7E6B}" ShortID="888893353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_FS" ID="{06FD1797-CBA1-4FD5-9A27-45C86A6D0510}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MainMenu" ID="{A6734E3B-77CD-4D0A-BA8D-671AFED96E26}">
+							<ChildrenList>
+								<Action Name="" ID="{9DD34668-388F-4A21-9C65-47B50075ED29}" ShortID="935791041">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Item_Pop" ID="{A1DAF9CA-676C-4500-9BDA-23F2DCF5A0D5}">
+							<ChildrenList>
+								<Action Name="" ID="{9AF436AC-19EA-4B2E-BABC-F69184928F1D}" ShortID="332464924">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Item_Pop" ID="{0CFF22C2-48D9-4AAC-AECD-9E056E0CD71B}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wolf_Idle_Loop" ID="{93F35E06-E979-4AAE-A3B8-CEA51D492921}">
+							<ChildrenList>
+								<Action Name="" ID="{5C8C8974-8235-41F5-ACCE-F7107EEEDA46}" ShortID="703733052">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_Idle_Loop" ID="{CEF3F513-CEC6-4208-BA7E-D48812F1210F}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{65709C95-0E11-4CFD-941B-8CF4CD9CA137}" ShortID="860791310">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_Idle_Loop" ID="{CEF3F513-CEC6-4208-BA7E-D48812F1210F}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5D7F04CC-2A5D-40C1-8CA3-15310D2859A2}" ShortID="1014235017">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="36"/>
+										<Property Name="SeekPercent" Type="Real64" Value="100">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C0594D3B-7641-41CF-AABB-E228D7494864}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-95"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_Idle_Loop" ID="{CEF3F513-CEC6-4208-BA7E-D48812F1210F}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wolf_Bite" ID="{49A8A668-A74B-4C39-B05E-25D991D30EA8}">
+							<ChildrenList>
+								<Action Name="" ID="{2CE2AD7C-4D06-4AEB-927F-FD9C855E3D5B}" ShortID="855482274">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_Bite" ID="{222D9ECF-D099-4333-8ED1-F3FE91FEEAC6}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7B8CACBA-68EC-4A04-94DD-EA55746E7EEA}" ShortID="655302587">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_Idle_Loop" ID="{CEF3F513-CEC6-4208-BA7E-D48812F1210F}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{14DFA0FB-725B-48A7-BC31-063CB8019E6C}" ShortID="203202444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Wolf_Idle_Loop" ID="{93F35E06-E979-4AAE-A3B8-CEA51D492921}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_MainMenu" ID="{6EAA5808-6674-49A0-9178-4B704728FC77}">
+							<ChildrenList>
+								<Action Name="" ID="{AF9E922E-4712-41C7-86C5-2EB2CFD69576}" ShortID="62990012">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Sheep_Hurt" ID="{490F9BA8-BB34-4384-AD1A-39340CA155A4}">
+							<ChildrenList>
+								<Action Name="" ID="{48D54C64-5703-414E-9A76-A37F6A7280AE}" ShortID="311860383">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_Hurt" ID="{91A9897E-AB40-477B-941E-5FE255D8810E}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_All_SFX" ID="{73C41C97-F9FB-41B4-A2BC-D776A1FCF85D}">
+							<ChildrenList>
+								<Action Name="" ID="{08F1EA5B-7A07-4402-BE96-3FA96246A4A6}" ShortID="184168294">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX" ID="{BA419A3C-3283-46A0-825E-A06DF5587FA4}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_All_SFX_01" ID="{6F7F97EC-0E23-4B16-87EC-5D1A51177B3A}">
+							<ChildrenList>
+								<Action Name="" ID="{4E3890D9-D08A-4343-BEB3-5270398AB213}" ShortID="853119456">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX" ID="{BA419A3C-3283-46A0-825E-A06DF5587FA4}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Menu_Decline" ID="{F8458E5B-7BF6-4005-8DB8-B90BC7CFB620}">
+							<ChildrenList>
+								<Action Name="" ID="{237FF3A1-AE32-4981-8880-0B9671031EDE}" ShortID="51856071">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Decline" ID="{21D40E99-3248-422F-8609-A47E78F89D46}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_Menu_Accept" ID="{68F01992-7D9D-45A4-86E1-F2C34A9A1E35}">
+							<ChildrenList>
+								<Action Name="" ID="{FF84E0F2-8C09-4C36-96D0-AC4BA5516C01}" ShortID="429945987">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_Menu_Accept" ID="{C5C3F4AA-2D7F-4605-84AF-74DFFA3CD413}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Sheep_FS" ID="{81ABDCC9-7657-41D0-8D53-979BEBE8B82A}">
+							<ChildrenList>
+								<Action Name="" ID="{F75E8900-FA54-4380-B437-446C3D95190E}" ShortID="459839173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_FS" ID="{06FD1797-CBA1-4FD5-9A27-45C86A6D0510}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

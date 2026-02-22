@@ -17,20 +17,6 @@
 # ======================== 
 # WWise
 # ======================== 
-*.ak *.akd
-*.bnk
-*.wsettings
-*.prof
-*.validationcache
-.WwiseProject
-
-Brackeys-Game-Jam-2026_WwiseProject/
-  .cache/
-  Artifacts/
-  *.wsettings
-
-Assets/Wwise/Editor/ProjectData/
-Assets/Wwise/Editor/Plugins/
 
 # ========================
 # Blender

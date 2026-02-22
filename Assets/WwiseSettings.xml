@@ -3,7 +3,7 @@
   <CopySoundBanksAsPreBuildStep>true</CopySoundBanksAsPreBuildStep>
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <WwiseStreamingAssetsPath>Audio\GeneratedSoundBanks</WwiseStreamingAssetsPath>
-  <RootOutputPath>../../Brackeys-Game-Jam-2026/Brackeys-Game-Jam-2026_WwiseProject/GeneratedSoundBanks/</RootOutputPath>
+  <RootOutputPath>../../Brackeys-Game-Jam-2026/Brackeys-Game-Jam-2026_WwiseProject/GeneratedSoundBanks</RootOutputPath>
   <CreatedPicker>true</CreatedPicker>
   <CreateWwiseGlobal>true</CreateWwiseGlobal>
   <CreateWwiseListener>true</CreateWwiseListener>
@@ -12,7 +12,7 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
-  <WwiseInstallationPathWindows>C:\Audiokinetic\Wwise2025.1.5.9095</WwiseInstallationPathWindows>
+  <WwiseInstallationPathWindows>D:\Audiokinetic\Wwise2025.1.5.9095</WwiseInstallationPathWindows>
   <WwiseProjectPath>../../Brackeys-Game-Jam-2026/Brackeys-Game-Jam-2026_WwiseProject/Brackeys-Game-Jam-2026_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>

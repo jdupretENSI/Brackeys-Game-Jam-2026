@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2752533807	Play_TestSound			\Default Work Unit\Play_TestSound	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	566650141	448222__toxicfilmzsrsounds__hip-hop-kick	.cache\C1\{C105E97A-06C6-AE32-A217-7865C99BF55F}.wem		\Containers\Default Work Unit\448222__toxicfilmzsrsounds__hip-hop-kick		13976
-
