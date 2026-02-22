@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.8892524, y: -1.5282346, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 169906518042955280}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 1140765096931024345}
   - component: {fileID: 46950845007781117}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Mesh pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
