@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f715cd-f7c9-4a2a-8dcf-482219e324bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/Player_Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/Player_Walking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Bridge.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Bridge.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lolipop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lolipop.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6a469c5cf96a43eab23a293167261e20212400/69/0c7014aa/Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6dd00658fb454e6fb4c06a416ab8eaa1a69000/45/32a788e4/Editor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@57d0e36f6123/InputSystem/Editor/UITKAssetEditor/InputActionsEditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -162,6 +168,45 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs</url>
+          <line>94</line>
+          <properties documentPath="D:\Unity\Games\Brackeys-Game-Jam-2026\Assets\_Branches\Jerome\Limited Use Items\Lollipop.cs" containingFunctionPresentation="Method 'CreateBridgeAtMidpoint'">
+            <startOffsets>
+              <option value="2982" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3137" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs</url>
+          <line>100</line>
+          <properties documentPath="D:\Unity\Games\Brackeys-Game-Jam-2026\Assets\_Branches\Jerome\Limited Use Items\Lollipop.cs" containingFunctionPresentation="Method 'CreateBridgeAtMidpoint'">
+            <startOffsets>
+              <option value="3250" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3292" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs</url>
+          <line>102</line>
+          <properties documentPath="D:\Unity\Games\Brackeys-Game-Jam-2026\Assets\_Branches\Jerome\Limited Use Items\Lollipop.cs" containingFunctionPresentation="Method 'CreateBridgeAtMidpoint'">
+            <startOffsets>
+              <option value="3347" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3390" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

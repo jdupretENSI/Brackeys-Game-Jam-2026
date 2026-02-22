@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,6 +31,11 @@ public class PlayerController : MonoBehaviour
     private Vector2 _moveInput;
     private bool _isGrounded;
 
+    private void Update()
+    {
+        Debug.DrawRay(transform.position, transform.forward * 3f, Color.blue);
+    }
+
     void OnPlayFootstep()
     {
         _footStep.Post(gameObject);
@@ -60,6 +66,19 @@ public class PlayerController : MonoBehaviour
     void OnMove(InputValue value)
     {
         _moveInput = value.Get<Vector2>();
+        
+        // Only flip if there's movement input
+        if (_moveInput.x == 0) return;
+        
+        // Get current scale
+        Vector3 scale = transform.localScale;
+            
+        // Set scale.x to positive or negative based on movement direction
+        // Mathf.Sign returns 1 for positive, -1 for negative
+        scale.x = Mathf.Sign(_moveInput.x);
+            
+        // Apply the new scale
+        transform.localScale = scale;
     }
     
     // Called automatically by the Input System when using "Send Messages" behavior

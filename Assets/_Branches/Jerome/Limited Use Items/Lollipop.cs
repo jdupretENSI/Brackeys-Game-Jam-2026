@@ -8,6 +8,7 @@ public class Lollipop : MonoBehaviour
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private float _bridgeDuration = 5f;
     [SerializeField] private float _lollipopLifetime = 1.5f;
+    [SerializeField] private GameObject _bridgePrefab;
     
     private Transform player;
     private GameObject bridgeObject;
@@ -93,20 +94,13 @@ public class Lollipop : MonoBehaviour
         // Calculate midpoint between player and end point
         Vector2 midpoint = new Vector2(
             (player.position.x + endGroundPoint.x) / 2f,
-            (player.position.y + endGroundPoint.y) / 2f + _bridgeHeight
+            (player.position.y + endGroundPoint.y) / 2f
         );
         
         // Create a simple bridge visual (you can replace this with your actual bridge prefab)
-        bridgeObject = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        bridgeObject = Instantiate(_bridgePrefab);
         bridgeObject.name = "LollipopBridge";
         bridgeObject.transform.position = midpoint;
-        
-        // Scale the bridge to span the distance
-        float distance = Vector2.Distance(player.position, endGroundPoint);
-        bridgeObject.transform.localScale = new Vector3(distance, 0.2f, 1f);
-        
-        // Rotate to align with the ground angle if needed
-        bridgeObject.transform.right = (endGroundPoint - (Vector2)player.position).normalized;
         
         // Destroy the bridge after duration
         Destroy(bridgeObject, _bridgeDuration);
