@@ -52,10 +52,10 @@ public class Portal : MonoBehaviour
         if (isPlaced) return;
         
         // Check for mouse click to place the portal
-        if (Input.GetMouseButtonDown(0))
-        {
-            TryPlacePortal();
-        }
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     TryPlacePortal();
+        // }
     }
 
     private void ThrowPortal()
