@@ -15,8 +15,34 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _deceleration = 50f;
     [SerializeField] private float _airControlMultiplier = 0.7f;
     
+    [Header("Sounds")]
+    [SerializeField] private AK.Wwise.Event _footStep;
+    [SerializeField] private AK.Wwise.Event _hurt;
+    [SerializeField] private AK.Wwise.Event _jump;
+    [SerializeField] private AK.Wwise.Event _land;
+    
     private Vector2 _moveInput;
     private bool _isGrounded;
+
+    void OnPlayFootstep()
+    {
+        AkUnitySoundEngine.PostEvent(_footStep.Id, gameObject);
+    }
+
+    void OnPlayHurt()
+    {
+        AkUnitySoundEngine.PostEvent(_hurt.Id, gameObject);
+    }
+
+    void OnPlayJump()
+    {
+        AkUnitySoundEngine.PostEvent(_jump.Id, gameObject);
+    }
+
+    void OnPlayLand()
+    {
+        AkUnitySoundEngine.PostEvent(_land.Id, gameObject);
+    }
     
     // Called automatically by the Input System when using "Send Messages" behavior
     void OnMove(InputValue value)

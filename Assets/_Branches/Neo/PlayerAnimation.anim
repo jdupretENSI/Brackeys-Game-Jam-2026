@@ -80,16 +80,16 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.016666668
-    functionName: 
+    functionName: OnPlayFootstep
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 1803601251093074188, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.05
-    functionName: 
+    functionName: OnPlayFootstep
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 1803601251093074188, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
