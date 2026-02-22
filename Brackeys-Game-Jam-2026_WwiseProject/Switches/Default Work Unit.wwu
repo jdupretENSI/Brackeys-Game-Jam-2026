@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D81F829F-85CC-4466-8EC2-DECC985967C4}" SchemaVersion="133">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D81F829F-85CC-4466-8EC2-DECC985967C4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D81F829F-85CC-4466-8EC2-DECC985967C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="HP_State" ID="{88CC1D42-21C6-4E24-939F-FA127B7EC443}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Three" ID="{71AF1A64-3FB7-43F5-BC4B-C008802A4018}"/>
+						<Switch Name="Two" ID="{2DAC398A-436C-4BF1-984B-9DA1C396FF67}"/>
+						<Switch Name="One" ID="{2CD94061-D7A0-444E-B834-D4C31D3477C4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
