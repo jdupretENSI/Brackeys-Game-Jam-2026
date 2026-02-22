@@ -18,6 +18,10 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Game_Music" ID="{606DFB3F-76F7-44A7-8677-4FDF166C5027}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Wolf_Idle_Loop" ID="{93F35E06-E979-4AAE-A3B8-CEA51D492921}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
 							<Position X="2" Y="0"/>
 						</Module>

@@ -50,6 +50,16 @@
 						</Event>
 						<Event Name="Play_MainMenu" ID="{A6734E3B-77CD-4D0A-BA8D-671AFED96E26}">
 							<ChildrenList>
+								<Action Name="" ID="{E3A39549-506A-485C-85B4-09696755C9F2}" ShortID="641695165">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_All_MUS" ID="{403A2B8C-A79F-413C-830B-3CD79DE85408}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{9DD34668-388F-4A21-9C65-47B50075ED29}" ShortID="935791041">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -222,6 +232,16 @@
 						</Event>
 						<Event Name="Play_Game_Music" ID="{606DFB3F-76F7-44A7-8677-4FDF166C5027}">
 							<ChildrenList>
+								<Action Name="" ID="{0CCE7F4E-5C3F-45A9-8482-8FFF89D49E6F}" ShortID="274117741">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_All_MUS" ID="{403A2B8C-A79F-413C-830B-3CD79DE85408}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{AE86E63B-46F1-4209-A896-3C6CEA96F7F8}" ShortID="307268078">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -268,6 +288,16 @@
 						</Event>
 						<Event Name="Play_CreditsTheme" ID="{F03A474E-6DB8-489F-8B62-70E49DB878A3}">
 							<ChildrenList>
+								<Action Name="" ID="{4051D46B-4B6C-43F8-B7B1-3BF8A5DB612B}" ShortID="915422781">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_All_MUS" ID="{403A2B8C-A79F-413C-830B-3CD79DE85408}" WorkUnitID="{2E09DBBE-C9D6-432D-A4C2-93EEE79CFB04}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{F231248C-9358-4976-82E8-8477F900B002}" ShortID="984305604">
 									<ReferenceList>
 										<Reference Name="Target">
