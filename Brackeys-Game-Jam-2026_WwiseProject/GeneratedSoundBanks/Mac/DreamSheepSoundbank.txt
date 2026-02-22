@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	95111320	Play_Wolf_FS			\Default Work Unit\ALL\Play_Wolf_FS	
 	399082132	Play_Wolf_Idle_Loop			\Default Work Unit\ALL\Play_Wolf_Idle_Loop	
 	451295089	Stop_All_MUS			\Default Work Unit\ALL\Stop_All_MUS	
 	550102826	Play_Sheep_Jump			\Default Work Unit\ALL\Play_Sheep_Jump	
@@ -28,6 +29,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23409734	Credits_Theme_140BPM	.cache\31\{314040EE-7963-0162-4320-0B31C28736D4}.wem		\Containers\Music\All_Music\CreditsTheme\CreditsTheme\Credits_Theme_140BPM		6238720
 	201754965	Wolf_Bite_1	.cache\DE\{DE43CA26-02A4-904F-01FA-80578367BB49}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_1		62252
 	278506369	Sheep_Jump_3	.cache\0B\{0BF1DA6C-EFB9-11BB-19E1-222958585640}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_3		68132
+	362373369	Wolf_FS_6	.cache\AA\{AACB7F5E-7BF7-B24C-8738-55959E783BC7}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_6		35792
 	373882744	UI_Menu_Decline	.cache\4E\{4ED8B05E-5139-5957-FAFF-895DBAD414B1}.wem		\Containers\Default Work Unit\SFX\UI_Menu_Decline		398512
 	385212567	Sheep_Jump_5	.cache\F4\{F4819279-E4A7-943B-A8E2-161EB8B19163}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_5		53432
 	409051522	Wolf_Bite_2	.cache\C4\{C49C3423-F596-51AB-488F-54F4FA79E4DD}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_2		62252
@@ -35,6 +37,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	444430461	Sheep_FS_4	.cache\B3\{B3669710-D01E-3F91-F881-37187125C773}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_4		14108
 	506851226	Sheep_FS_2	.cache\00\{00924B27-D495-8A04-76C0-9EB6EF04FC73}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_2		18886
 	576631033	Sheep_Hurt_2	.cache\01\{01E9C90E-D438-B1C6-D3BE-D73A8A330711}.wem		\Containers\Default Work Unit\SFX\Sheep_Hurt\Sheep_Hurt_2		72174
+	580664429	Wolf_FS_1	.cache\C5\{C5974322-572B-D54B-4181-EBBAD3DD3BFA}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_1		22194
 	602771857	Wolf_Idle_Loop	.cache\A5\{A5C96E66-0B42-74B8-629A-0B525044DA23}.wem		\Containers\Default Work Unit\SFX\Wolf_Idle_Loop		1483742
 	620527319	Item_Pop	.cache\09\{09688B02-A4C0-F4C1-6B39-12B7867D9B5C}.wem		\Containers\Default Work Unit\SFX\Item_Pop		26248
 	623301980	Wolf_Bite_4	.cache\39\{390676D5-787C-AED2-AD35-4758F28C869E}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_4		62252
@@ -43,9 +46,13 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	697435051	MUS_DreamExploration1hp	.cache\F4\{F4DDD38B-02F3-3483-CFF8-FC229966512C}.wem		\Containers\Music\All_Music\Dream Explo Switch Container\Playlist Dream Explo 1hp\1hp\MUS_DreamExploration1hp		21628436
 	699569356	MUS_DreamExploration	.cache\8A\{8ACBAA5B-331C-A1EB-EF75-5E5395B041BC}.wem		\Containers\Music\All_Music\Dream Explo Switch Container\Playlist Dream Explo\3hp\MUS_DreamExploration		22036364
 	707543097	UI_Hover	.cache\28\{285F0867-C847-FE46-B545-1135215F878A}.wem		\Containers\Default Work Unit\SFX\UI_Hover		52712
+	730834258	Wolf_FS_5	.cache\F4\{F4E94E95-B3C9-1119-FFB5-6A4B2E3FC806}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_5		31382
 	735028830	MUS_MainMenuTheme_119BPM	.cache\74\{7451B900-4EA6-C2F8-2714-2CEAB8AB6075}.wem		\Containers\Music\All_Music\MainMenu\MainMenu\MUS_MainMenuTheme_119BPM		16771116
+	753312970	Wolf_FS_2	.cache\29\{2972A238-A82F-5887-072C-A17546FC5D2B}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_2		21460
 	775184521	Sheep_Hurt_1	.cache\54\{54F1FCD5-8C26-D78A-6EEC-8C7F54A932E6}.wem		\Containers\Default Work Unit\SFX\Sheep_Hurt\Sheep_Hurt_1		71072
 	777613886	Sheep_FS_5	.cache\53\{53F1AE5A-1982-8050-9689-B40AB11464E0}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_5		10802
+	813238144	Wolf_FS_4	.cache\9E\{9ED3022C-6E3B-D19D-AC2F-742E3ACCB8FD}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_4		27340
+	826402646	Wolf_FS_3	.cache\EB\{EBA117B5-4AE5-E360-272D-F590F65A3545}.wem		\Containers\Default Work Unit\SFX\Wolf_FS\Wolf_FS_3		26972
 	839461202	Sheep_FS_3	.cache\C2\{C2D1AF51-7675-989D-7B1C-D5C15F584342}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_3		9332
 	912262206	Sheep_Hurt_3	.cache\EC\{EC1AAE74-3E29-E978-4C01-5F2474053ACF}.wem		\Containers\Default Work Unit\SFX\Sheep_Hurt\Sheep_Hurt_3		74380
 	963262258	Sheep_Jump_4	.cache\B2\{B2C8FF2F-6008-EC65-559D-46F3A5B3BF83}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_4		62252

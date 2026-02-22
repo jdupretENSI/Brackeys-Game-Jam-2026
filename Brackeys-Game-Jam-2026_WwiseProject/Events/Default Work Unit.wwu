@@ -7,6 +7,16 @@
 					<ChildrenList>
 						<Event Name="Play_Sheep_Jump" ID="{01C496C9-474C-4CDB-9846-B3FFECB78734}">
 							<ChildrenList>
+								<Action Name="" ID="{1A9A68BB-089E-4BDE-BA44-AC4A9BE58BA3}" ShortID="68302053">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sheep_FS" ID="{06FD1797-CBA1-4FD5-9A27-45C86A6D0510}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{D58D9C49-C93E-4B5E-B7B0-D75E3EEE6CD7}" ShortID="270597310">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -302,6 +312,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="CreditsTheme" ID="{E12F0004-DEC4-46F8-A32F-DB34103204A8}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Wolf_FS" ID="{D9357BC8-A960-4347-809C-EAE19D323864}">
+							<ChildrenList>
+								<Action Name="" ID="{A9969628-A516-469D-B170-450EE9756DC7}" ShortID="723621888">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wolf_FS" ID="{C4410FA1-5BE5-41FF-9766-721C369FC691}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

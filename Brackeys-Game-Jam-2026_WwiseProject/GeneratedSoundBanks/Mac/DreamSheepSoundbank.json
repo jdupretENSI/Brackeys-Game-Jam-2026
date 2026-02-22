@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}",
     "Language": "SFX",
-    "Hash": "{EA387CD2-4733-A0C9-2CD3-6F32857DC18A}",
+    "Hash": "{80B4F92C-0CBA-3F4D-7BF0-B8F7387C5530}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DreamSheepSoundbank",
     "ShortName": "DreamSheepSoundbank",
     "Path": "DreamSheepSoundbank.bnk",
@@ -38,6 +38,14 @@
       "Location": "Memory",
       "ShortName": "Sheep_Jump_3.wav",
       "CachePath": "0B/{0BF1DA6C-EFB9-11BB-19E1-222958585640}.wem"
+     },
+     {
+      "Id": "362373369",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_6.wav",
+      "CachePath": "AA/{AACB7F5E-7BF7-B24C-8738-55959E783BC7}.wem"
      },
      {
       "Id": "373882744",
@@ -94,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Sheep_Hurt_2.wav",
       "CachePath": "01/{01E9C90E-D438-B1C6-D3BE-D73A8A330711}.wem"
+     },
+     {
+      "Id": "580664429",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_1.wav",
+      "CachePath": "C5/{C5974322-572B-D54B-4181-EBBAD3DD3BFA}.wem"
      },
      {
       "Id": "602771857",
@@ -160,12 +176,28 @@
       "CachePath": "28/{285F0867-C847-FE46-B545-1135215F878A}.wem"
      },
      {
+      "Id": "730834258",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_5.wav",
+      "CachePath": "F4/{F4E94E95-B3C9-1119-FFB5-6A4B2E3FC806}.wem"
+     },
+     {
       "Id": "735028830",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "MUS_MainMenuTheme_119BPM.wav",
       "CachePath": "74/{7451B900-4EA6-C2F8-2714-2CEAB8AB6075}.wem"
+     },
+     {
+      "Id": "753312970",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_2.wav",
+      "CachePath": "29/{2972A238-A82F-5887-072C-A17546FC5D2B}.wem"
      },
      {
       "Id": "775184521",
@@ -182,6 +214,22 @@
       "Location": "Memory",
       "ShortName": "Sheep_FS_5.wav",
       "CachePath": "53/{53F1AE5A-1982-8050-9689-B40AB11464E0}.wem"
+     },
+     {
+      "Id": "813238144",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_4.wav",
+      "CachePath": "9E/{9ED3022C-6E3B-D19D-AC2F-742E3ACCB8FD}.wem"
+     },
+     {
+      "Id": "826402646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wolf_FS_3.wav",
+      "CachePath": "EB/{EBA117B5-4AE5-E360-272D-F590F65A3545}.wem"
      },
      {
       "Id": "839461202",
@@ -539,6 +587,36 @@
       ]
      },
      {
+      "Id": "95111320",
+      "Name": "Play_Wolf_FS",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Wolf_FS",
+      "GUID": "{D9357BC8-A960-4347-809C-EAE19D323864}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.241678",
+      "DurationMax": "0.40417233",
+      "MediaRefs": [
+       {
+        "Id": "362373369"
+       },
+       {
+        "Id": "580664429"
+       },
+       {
+        "Id": "730834258"
+       },
+       {
+        "Id": "753312970"
+       },
+       {
+        "Id": "813238144"
+       },
+       {
+        "Id": "826402646"
+       }
+      ]
+     },
+     {
       "Id": "399082132",
       "Name": "Play_Wolf_Idle_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Wolf_Idle_Loop",
@@ -612,6 +690,6 @@
     ]
    }
   ],
-  "FileHash": "{90ABC96E-0D71-E95A-FB12-A4B42BBCFEA9}"
+  "FileHash": "{ECAC3119-E25C-B980-C239-D89780B3E23F}"
  }
 }

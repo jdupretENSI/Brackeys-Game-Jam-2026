@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_UI_MENU_ACCEPT = 4044401305U;
         static const AkUniqueID PLAY_UI_MENU_DECLINE = 1047153021U;
         static const AkUniqueID PLAY_WOLF_BITE = 3251744751U;
+        static const AkUniqueID PLAY_WOLF_FS = 95111320U;
         static const AkUniqueID PLAY_WOLF_IDLE_LOOP = 399082132U;
         static const AkUniqueID STOP_ALL_MUS = 451295089U;
         static const AkUniqueID STOP_ALL_SFX = 971107033U;
