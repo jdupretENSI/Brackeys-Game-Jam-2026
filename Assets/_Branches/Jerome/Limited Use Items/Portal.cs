@@ -47,17 +47,6 @@ public class Portal : MonoBehaviour
         ThrowPortal();
     }
 
-    private void Update()
-    {
-        if (isPlaced) return;
-        
-        // Check for mouse click to place the portal
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     TryPlacePortal();
-        // }
-    }
-
     private void ThrowPortal()
     {
         // Get the direction the player is facing
