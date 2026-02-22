@@ -120,12 +120,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8decccc9618434e4b989c7127e22f6f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lollipop
-  bridgeLength: 5
-  bridgeHeight: 1
-  groundLayer:
+  _bridgeLength: 15
+  _bridgeHeight: 10
+  _groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  bridgeDuration: 5
+  _bridgeDuration: 5
+  _lollipopLifetime: 1.5
 --- !u!1 &3930056903949456218
 GameObject:
   m_ObjectHideFlags: 0

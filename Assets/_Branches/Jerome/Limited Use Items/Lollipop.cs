@@ -3,19 +3,22 @@ using UnityEngine;
 public class Lollipop : MonoBehaviour
 {
     [Header("Bridge Settings")]
-    [SerializeField] private float bridgeLength = 5f; // Distance to check for ground
-    [SerializeField] private float bridgeHeight = 1f; // Height of the bridge above ground
-    [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private float bridgeDuration = 5f;
+    [SerializeField] private float _bridgeLength = 5f; // Distance to check for ground
+    [SerializeField] private float _bridgeHeight = 1f; // Height of the bridge above ground
+    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private float _bridgeDuration = 5f;
+    [SerializeField] private float _lollipopLifetime = 1.5f;
     
     private Transform player;
     private GameObject bridgeObject;
+    private Inventory playerInventory;
     
     // For gizmo visualization
     private Vector2 playerPosition;
     private Vector2 checkEndPoint;
     private RaycastHit2D hit;
     private bool hasValidGround = false;
+    private bool bridgeCreated = false;
     
     private void Start()
     {
@@ -24,41 +27,63 @@ public class Lollipop : MonoBehaviour
         if (playerObj != null)
         {
             player = playerObj.transform;
+            playerInventory = playerObj.GetComponent<Inventory>();
         }
         
-        // Try to create the bridge
-        TryCreateBridge();
+        // Store the player position at creation time
+        if (player != null)
+        {
+            playerPosition = player.position;
+        }
+    }
+    
+    private void Update()
+    {
+        // Only try to create the bridge once
+        if (!bridgeCreated && player != null)
+        {
+            TryCreateBridge();
+        }
     }
     
     private void TryCreateBridge()
     {
-        if (player == null) return;
-        
-        playerPosition = player.position;
         float direction = Mathf.Sign(player.localScale.x);
         
         // Calculate the end point to check for ground
         checkEndPoint = new Vector2(
-            playerPosition.x + (direction * bridgeLength),
+            playerPosition.x + (direction * _bridgeLength),
             playerPosition.y
         );
-        
-        // Raycast from player position forward to check for ground
-        hit = Physics2D.Raycast(checkEndPoint, Vector2.down, bridgeHeight * 2f, groundLayer);
+
+        // Raycast from the end point downward to check for ground
+        hit = Physics2D.Raycast(checkEndPoint, Vector2.down, _bridgeHeight * 2f, _groundLayer);
         
         if (hit.collider != null)
         {
             hasValidGround = true;
             // Valid surface found at the end point
             CreateBridgeAtMidpoint(hit.point);
+            bridgeCreated = true;
+            
+            // Destroy the lollipop object after successful bridge creation
         }
         else
         {
             hasValidGround = false;
-            // No valid surface, destroy the lollipop
-            Debug.Log("No valid surface for bridge");
-            Destroy(gameObject);
+            // No valid surface, destroy the lollipop WITHOUT consuming an inventory use
+            Debug.Log("No valid surface for bridge - lollipop not consumed");
+            
+            // Return the lollipop use to the inventory
+            if (playerInventory != null)
+            {
+                playerInventory.AddLollipop();
+            }
+            
+            // Destroy the lollipop object
         }
+
+        Destroy(gameObject, _lollipopLifetime);
     }
     
     private void CreateBridgeAtMidpoint(Vector2 endGroundPoint)
@@ -68,7 +93,7 @@ public class Lollipop : MonoBehaviour
         // Calculate midpoint between player and end point
         Vector2 midpoint = new Vector2(
             (player.position.x + endGroundPoint.x) / 2f,
-            (player.position.y + endGroundPoint.y) / 2f + bridgeHeight
+            (player.position.y + endGroundPoint.y) / 2f + _bridgeHeight
         );
         
         // Create a simple bridge visual (you can replace this with your actual bridge prefab)
@@ -83,22 +108,8 @@ public class Lollipop : MonoBehaviour
         // Rotate to align with the ground angle if needed
         bridgeObject.transform.right = (endGroundPoint - (Vector2)player.position).normalized;
         
-        // Add a collider so the player can walk on it
-        BoxCollider2D boxCollider = bridgeObject.AddComponent<BoxCollider2D>();
-        boxCollider.size = new Vector2(1f, 0.2f);
-        
-        // Optional: Add a sprite renderer if you have a bridge sprite
-        SpriteRenderer spriteRenderer = bridgeObject.GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = new Color(1f, 0.5f, 0.8f); // Lollipop pink color
-        }
-        
         // Destroy the bridge after duration
-        Destroy(bridgeObject, bridgeDuration);
-        
-        // Destroy the lollipop object
-        Destroy(gameObject);
+        Destroy(bridgeObject, _bridgeDuration);
     }
     
     // Draw gizmos to visualize the raycast
@@ -125,7 +136,7 @@ public class Lollipop : MonoBehaviour
             {
                 Vector2 midpoint = new Vector2(
                     (player.position.x + hit.point.x) / 2f,
-                    (player.position.y + hit.point.y) / 2f + bridgeHeight
+                    (player.position.y + hit.point.y) / 2f + _bridgeHeight
                 );
                 Gizmos.color = Color.magenta;
                 Gizmos.DrawSphere(midpoint, 0.2f);
@@ -134,7 +145,7 @@ public class Lollipop : MonoBehaviour
         else
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(checkEndPoint, checkEndPoint + Vector2.down * (bridgeHeight * 2f));
+            Gizmos.DrawLine(checkEndPoint, checkEndPoint + Vector2.down * (_bridgeHeight * 2f));
         }
         
         // Draw the player position
