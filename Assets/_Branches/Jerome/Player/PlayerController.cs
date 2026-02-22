@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Player")]
+    [SerializeField] private Inventory _inventory;
+    
     [Header("Movement Settings")]
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private float _moveSpeed = 5f;
@@ -59,7 +62,11 @@ public class PlayerController : MonoBehaviour
         _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, 0f);
         _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
     }
-    
+
+    void OnUseItem()
+    {
+        _inventory.UseItem();
+    }
     void FixedUpdate()
     {
         CheckGrounded();

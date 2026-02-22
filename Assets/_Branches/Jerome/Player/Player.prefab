@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 560644109447771021}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,9 @@ GameObject:
   - component: {fileID: 8414037715343848937}
   - component: {fileID: 1699275443623423637}
   - component: {fileID: 1870995304901448443}
+  - component: {fileID: 1553408849542986885}
   - component: {fileID: 5262311831274441440}
+  - component: {fileID: 7104005411342395706}
   m_Layer: 0
   m_Name: T_SheepCharacter_01_0
   m_TagString: Untagged
@@ -222,6 +224,36 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1553408849542986885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842807056217564159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 4c5570d2b4ea7ad4b9fc8c4d14a4afa2, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!114 &5262311831274441440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bef5c02cd8d42e4885c86b5713771dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  _inventory: {fileID: 7104005411342395706}
   _rb: {fileID: 15094196000608534}
   _moveSpeed: 5
   _jumpForce: 10
@@ -260,3 +293,24 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 74b43414e17a18f4195b6cb80df246ea, type: 2}
+--- !u!114 &7104005411342395706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842807056217564159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e31b6f8f27d3c48b4c08e20162b060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory
+  _lollipop: {fileID: 188833704574894574, guid: 07257f10f3fe83948b4282d91a7e3150, type: 3}
+  _portal: {fileID: 8135246627732346525, guid: 52bc09bbd1dacac4baef8ddec82a316d, type: 3}
+  _gloves: {fileID: 8970665878227301971, guid: 8d8a48b136754824cb5814914890da3d, type: 3}
+  _lollipopMaxUse: 3
+  _portalMaxUse: 2
+  _glovesMaxUse: 5
+  HasLollipop: 0
+  HasPortal: 0
+  HasGloves: 0

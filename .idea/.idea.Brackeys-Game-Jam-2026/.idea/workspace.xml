@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f715cd-f7c9-4a2a-8dcf-482219e324bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/Player_Walking.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/Player_Walking.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/T_SheepCharacter_01_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations/T_SheepCharacter_01_0.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Brackeys-Game-Jam-2026/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lolipop.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lolipop.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Lollipop.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Animations.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Limited Use Items/Portal.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Inventory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/Player.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Branches/Jerome/Player/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Main.unity" afterDir="false" />
     </list>
@@ -135,7 +133,7 @@
       <workItem from="1771720074974" duration="134000" />
       <workItem from="1771721145187" duration="256000" />
       <workItem from="1771721695555" duration="729000" />
-      <workItem from="1771725534988" duration="1144000" />
+      <workItem from="1771725534988" duration="5138000" />
     </task>
     <servers />
   </component>

@@ -12,15 +12,40 @@ public class Inventory : MonoBehaviour
     // and we remove the game object to signify that the player doesn't have anymore in their inventory.
     private int _lollipopUsableCount, _portalUsableCount, _glovesUsableCount;
     public bool HasLollipop, HasPortal, HasGloves;
+    private ItemType? CurrentItem = null;
 
     private void Awake()
     {
         _lollipopUsableCount = _lollipopMaxUse;
         _portalUsableCount = _portalMaxUse;
         _glovesUsableCount = _glovesMaxUse;
+        
+        SetItem(ItemType.Lollipop);
     }
     
-    public void UseLollipop()
+    public void SetItem(ItemType item)
+    {
+        CurrentItem = item;
+    }
+
+    public void UseItem()
+    {
+        // ReSharper disable once SwitchStatementHandlesSomeKnownEnumValuesWithDefault
+        switch (CurrentItem)
+        {
+            case ItemType.Lollipop:
+                UseLollipop();
+                break;
+            case ItemType.Gloves:
+                UseGloves();
+                break;
+            case ItemType.Portal:
+                UsePortal();
+                break;
+        }
+    }
+
+    private void UseLollipop()
     {
         if (!HasLollipop || _lollipopUsableCount == 0) return;
     
@@ -46,7 +71,7 @@ public class Inventory : MonoBehaviour
         Instantiate(_lollipop, spawnPosition, Quaternion.identity);
     }
 
-    public void UsePortal()
+    private void UsePortal()
     {
         if (!HasPortal || _portalUsableCount == 0) return;
     
@@ -72,7 +97,7 @@ public class Inventory : MonoBehaviour
         Instantiate(_portal, spawnPosition, Quaternion.identity);
     }
 
-    public void UseGloves()
+    private void UseGloves()
     {
         if (!HasGloves || _glovesUsableCount == 0) return;
     
@@ -119,4 +144,11 @@ public class Inventory : MonoBehaviour
         _glovesUsableCount = _glovesMaxUse;
         return true;
     }
+}
+
+public enum ItemType
+{
+    Lollipop,
+    Portal,
+    Gloves
 }
