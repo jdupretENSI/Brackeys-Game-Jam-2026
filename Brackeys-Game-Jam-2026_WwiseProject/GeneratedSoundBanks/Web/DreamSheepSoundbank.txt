@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1047153021	Play_UI_Menu_Decline			\Default Work Unit\ALL\Play_UI_Menu_Decline	
 	1187732365	Play_Sheep_Land			\Default Work Unit\ALL\Play_Sheep_Land	
 	1339559671	Play_UI_Hover			\Default Work Unit\ALL\Play_UI_Hover	
+	2842361443	Play_Sheep_FS			\Default Work Unit\ALL\Play_Sheep_FS	
 	3217125061	Stop_All_SFX_01			\Default Work Unit\ALL\Stop_All_SFX_01	
 	3233440943	Play_Item_Pop			\Default Work Unit\ALL\Play_Item_Pop	
 	3251744751	Play_Wolf_Bite			\Default Work Unit\ALL\Play_Wolf_Bite	

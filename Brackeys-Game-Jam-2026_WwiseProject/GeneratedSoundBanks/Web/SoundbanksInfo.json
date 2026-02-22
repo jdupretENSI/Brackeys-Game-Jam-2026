@@ -71,7 +71,7 @@
     "Type": "User",
     "GUID": "{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}",
     "Language": "SFX",
-    "Hash": "{24025AFC-B69C-8AEB-B9F7-1DB4BE5AE865}",
+    "Hash": "{BD54C77F-501A-EDF6-B4C5-1B1D5A94BC86}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DreamSheepSoundbank",
     "ShortName": "DreamSheepSoundbank",
     "Path": "DreamSheepSoundbank.bnk",
@@ -291,6 +291,32 @@
       ]
      },
      {
+      "Id": "2842361443",
+      "Name": "Play_Sheep_FS",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Sheep_FS",
+      "GUID": "{81ABDCC9-7657-41D0-8D53-979BEBE8B82A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.09975577",
+      "DurationMax": "0.22190225",
+      "MediaRefs": [
+       {
+        "Id": "444430461"
+       },
+       {
+        "Id": "506851226"
+       },
+       {
+        "Id": "777613886"
+       },
+       {
+        "Id": "839461202"
+       },
+       {
+        "Id": "1046705426"
+       }
+      ]
+     },
+     {
       "Id": "4152779689",
       "Name": "Play_Sheep_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Sheep_Hurt",
@@ -495,6 +521,6 @@
     ]
    }
   ],
-  "FileHash": "{99EB8B82-CFC4-3B70-A26D-962BCF383746}"
+  "FileHash": "{1060B6AB-3837-470C-267E-CBE625BF0EE3}"
  }
 }
