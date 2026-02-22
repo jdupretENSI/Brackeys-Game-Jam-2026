@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}",
     "Language": "SFX",
-    "Hash": "{7BBC5B02-442F-9353-148C-80296C17D8CC}",
+    "Hash": "{A838216C-8784-AE8F-D3AE-F863EA05F8BF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DreamSheepSoundbank",
     "ShortName": "DreamSheepSoundbank",
     "Path": "DreamSheepSoundbank.bnk",
     "Media": [
+     {
+      "Id": "23409734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Credits_Theme_140BPM.wav",
+      "CachePath": "31/{314040EE-7963-0162-4320-0B31C28736D4}.wem"
+     },
      {
       "Id": "201754965",
       "Language": "SFX",
@@ -225,6 +233,18 @@
      }
     ],
     "Events": [
+     {
+      "Id": "3468176687",
+      "Name": "Play_CreditsTheme",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_CreditsTheme",
+      "GUID": "{F03A474E-6DB8-489F-8B62-70E49DB878A3}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "23409734"
+       }
+      ]
+     },
      {
       "Id": "4141037488",
       "Name": "Play_Game_Music",
@@ -498,6 +518,16 @@
       ]
      },
      {
+      "Id": "451295089",
+      "Name": "Stop_All_MUS",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Stop_All_MUS",
+      "GUID": "{403A2B8C-A79F-413C-830B-3CD79DE85408}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "971107033",
       "Name": "Stop_All_SFX",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Stop_All_SFX",
@@ -548,6 +578,6 @@
     ]
    }
   ],
-  "FileHash": "{1F69D971-7C47-8055-1B0D-CC5305D6E455}"
+  "FileHash": "{FA317B65-950B-9039-593E-A8F3FB1B728A}"
  }
 }

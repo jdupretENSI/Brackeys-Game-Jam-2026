@@ -231,6 +231,52 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_All_MUS" ID="{403A2B8C-A79F-413C-830B-3CD79DE85408}">
+							<ChildrenList>
+								<Action Name="" ID="{13071133-3DCE-4AD6-AA47-1A08A5B621C5}" ShortID="755623393">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dream Explo Switch Container" ID="{0C2A0579-AEAF-4938-8FD3-D812E256C3D3}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{01B3FC1B-DFAC-4817-AC19-3E33D6F56B74}" ShortID="397457289">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CreditsTheme" ID="{E12F0004-DEC4-46F8-A32F-DB34103204A8}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DD115EBE-FFE8-4604-855F-37E5ABA52AA7}" ShortID="188325616">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu" ID="{A943F8B6-1A70-4B61-BFAE-32D39F686B95}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_CreditsTheme" ID="{F03A474E-6DB8-489F-8B62-70E49DB878A3}">
+							<ChildrenList>
+								<Action Name="" ID="{F231248C-9358-4976-82E8-8477F900B002}" ShortID="984305604">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CreditsTheme" ID="{E12F0004-DEC4-46F8-A32F-DB34103204A8}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

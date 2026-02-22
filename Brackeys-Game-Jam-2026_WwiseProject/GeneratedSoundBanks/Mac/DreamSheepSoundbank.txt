@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	399082132	Play_Wolf_Idle_Loop			\Default Work Unit\ALL\Play_Wolf_Idle_Loop	
+	451295089	Stop_All_MUS			\Default Work Unit\ALL\Stop_All_MUS	
 	550102826	Play_Sheep_Jump			\Default Work Unit\ALL\Play_Sheep_Jump	
 	890527358	Stop_MainMenu			\Default Work Unit\ALL\Stop_MainMenu	
 	971107033	Stop_All_SFX			\Default Work Unit\ALL\Stop_All_SFX	
@@ -9,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2842361443	Play_Sheep_FS			\Default Work Unit\ALL\Play_Sheep_FS	
 	3233440943	Play_Item_Pop			\Default Work Unit\ALL\Play_Item_Pop	
 	3251744751	Play_Wolf_Bite			\Default Work Unit\ALL\Play_Wolf_Bite	
+	3468176687	Play_CreditsTheme			\Default Work Unit\ALL\Play_CreditsTheme	
 	3738780720	Play_MainMenu			\Default Work Unit\ALL\Play_MainMenu	
 	4044401305	Play_UI_Menu_Accept			\Default Work Unit\ALL\Play_UI_Menu_Accept	
 	4141037488	Play_Game_Music			\Default Work Unit\ALL\Play_Game_Music	
@@ -23,6 +25,7 @@ Switch	ID	Name	Switch Group			Notes
 	1064933119	One	HP_State			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23409734	Credits_Theme_140BPM	.cache\31\{314040EE-7963-0162-4320-0B31C28736D4}.wem		\Containers\Music\All_Music\CreditsTheme\CreditsTheme\Credits_Theme_140BPM		6238720
 	201754965	Wolf_Bite_1	.cache\DE\{DE43CA26-02A4-904F-01FA-80578367BB49}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_1		62252
 	278506369	Sheep_Jump_3	.cache\0B\{0BF1DA6C-EFB9-11BB-19E1-222958585640}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_3		68132
 	373882744	UI_Menu_Decline	.cache\4E\{4ED8B05E-5139-5957-FAFF-895DBAD414B1}.wem		\Containers\Default Work Unit\SFX\UI_Menu_Decline		398512
