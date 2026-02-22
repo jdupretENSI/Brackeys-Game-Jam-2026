@@ -26,22 +26,22 @@ public class PlayerController : MonoBehaviour
 
     void OnPlayFootstep()
     {
-        AkUnitySoundEngine.PostEvent(_footStep.Id, gameObject);
+        _footStep.Post(gameObject);
     }
 
     void OnPlayHurt()
     {
-        AkUnitySoundEngine.PostEvent(_hurt.Id, gameObject);
+        _hurt.Post(gameObject);
     }
 
     void OnPlayJump()
     {
-        AkUnitySoundEngine.PostEvent(_jump.Id, gameObject);
+        _jump.Post(gameObject);
     }
 
     void OnPlayLand()
     {
-        AkUnitySoundEngine.PostEvent(_land.Id, gameObject);
+        _land.Post(gameObject);
     }
     
     // Called automatically by the Input System when using "Send Messages" behavior
