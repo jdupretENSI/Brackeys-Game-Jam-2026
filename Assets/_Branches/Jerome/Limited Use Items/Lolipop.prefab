@@ -120,16 +120,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8decccc9618434e4b989c7127e22f6f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lollipop
-  _bridgePrefab: {fileID: 4160394301260141338, guid: 38c97a7bcdc1b5946a95031d43678225, type: 3}
-  _maxBridgeLength: 5
-  _groundCheckDistance: 1
-  _groundLayer:
+  bridgeLength: 5
+  bridgeHeight: 1
+  groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  _bridgeDuration: 5
-  _bridgeWidth: 2
-  _validPlacementColor: {r: 0, g: 1, b: 0, a: 1}
-  _invalidPlacementColor: {r: 1, g: 0, b: 0, a: 1}
+  bridgeDuration: 5
 --- !u!1 &3930056903949456218
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +207,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 2627904899840962812, guid: 611f489ac89088f48b00c2e13f2ba9e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

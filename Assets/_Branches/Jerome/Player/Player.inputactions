@@ -25,9 +25,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Interact",
+                    "name": "Inventory",
                     "type": "Button",
-                    "id": "db428ac4-a1a3-4f97-8706-c7882782e04e",
+                    "id": "f66b72fa-4491-467b-a711-ab6c40a8757c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "UseItem",
+                    "type": "Button",
+                    "id": "46a698e2-e0f1-40c9-8a70-035b76806852",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -158,12 +167,23 @@
                 },
                 {
                     "name": "",
-                    "id": "3096717f-b1e6-46bd-ba13-67dad15b7b53",
+                    "id": "6fd6f908-767b-432b-bae1-dcb8b12a3f80",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ce43721d-78d8-4f16-bd04-9fa847ad88ab",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "UseItem",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
