@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_ITEM_POP = 3233440943U;
         static const AkUniqueID PLAY_MAINMENU = 3738780720U;
+        static const AkUniqueID PLAY_SHEEP_FS = 2842361443U;
         static const AkUniqueID PLAY_SHEEP_HURT = 4152779689U;
         static const AkUniqueID PLAY_SHEEP_JUMP = 550102826U;
         static const AkUniqueID PLAY_SHEEP_LAND = 1187732365U;

@@ -3,9 +3,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-
-    [SerializeField] private GameManager gameManager; // Drag GameManager
-
     [Header("Movement Settings")]
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private float _moveSpeed = 5f;
@@ -18,16 +15,35 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _deceleration = 50f;
     [SerializeField] private float _airControlMultiplier = 0.7f;
     
+    [Header("Sounds")]
+    [SerializeField] private AK.Wwise.Event _footStep;
+    [SerializeField] private AK.Wwise.Event _hurt;
+    [SerializeField] private AK.Wwise.Event _jump;
+    [SerializeField] private AK.Wwise.Event _land;
+    
     private Vector2 _moveInput;
     private bool _isGrounded;
 
-    // Input System appelle ÇA AUTOMATIQUEMENT quand E pressé
-    void OnInteract()
+    void OnPlayFootstep()
     {
-         Debug.Log("👆 E pressé !");
-         gameManager?.Interact(); // Appelle GameManager
+        _footStep.Post(gameObject);
     }
 
+    void OnPlayHurt()
+    {
+        _hurt.Post(gameObject);
+    }
+
+    void OnPlayJump()
+    {
+        _jump.Post(gameObject);
+    }
+
+    void OnPlayLand()
+    {
+        _land.Post(gameObject);
+    }
+    
     // Called automatically by the Input System when using "Send Messages" behavior
     void OnMove(InputValue value)
     {
