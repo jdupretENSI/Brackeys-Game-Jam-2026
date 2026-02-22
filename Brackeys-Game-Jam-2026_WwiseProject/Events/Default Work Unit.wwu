@@ -201,7 +201,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SFX" ID="{BA419A3C-3283-46A0-825E-A06DF5587FA4}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+											<ObjectRef Name="SFX_INGAME" ID="{BA419A3C-3283-46A0-825E-A06DF5587FA4}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
