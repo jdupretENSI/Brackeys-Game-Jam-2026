@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+
+    [SerializeField] private GameManager gameManager; // Drag GameManager
+
     [Header("Movement Settings")]
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private float _moveSpeed = 5f;
@@ -17,7 +20,14 @@ public class PlayerController : MonoBehaviour
     
     private Vector2 _moveInput;
     private bool _isGrounded;
-    
+
+    // Input System appelle ÇA AUTOMATIQUEMENT quand E pressé
+    void OnInteract()
+    {
+         Debug.Log("👆 E pressé !");
+         gameManager?.Interact(); // Appelle GameManager
+    }
+
     // Called automatically by the Input System when using "Send Messages" behavior
     void OnMove(InputValue value)
     {
