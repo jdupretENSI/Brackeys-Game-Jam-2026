@@ -64,6 +64,34 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1365710999",
+      "Name": "HP_State",
+      "ObjectPath": "\\Switches\\Default Work Unit\\HP_State",
+      "GUID": "{88CC1D42-21C6-4E24-939F-FA127B7EC443}",
+      "Switches": [
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Two",
+        "GUID": "{2DAC398A-436C-4BF1-984B-9DA1C396FF67}"
+       },
+       {
+        "Id": "912956111",
+        "Name": "Three",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Three",
+        "GUID": "{71AF1A64-3FB7-43F5-BC4B-C008802A4018}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\One",
+        "GUID": "{2CD94061-D7A0-444E-B834-D4C31D3477C4}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -71,7 +99,7 @@
     "Type": "User",
     "GUID": "{DABF6CDA-BAB9-4479-B6C7-16129CB7ECC7}",
     "Language": "SFX",
-    "Hash": "{BD54C77F-501A-EDF6-B4C5-1B1D5A94BC86}",
+    "Hash": "{D790CFC2-3114-BF97-70D5-8BB2C5AD153B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\DreamSheepSoundbank",
     "ShortName": "DreamSheepSoundbank",
     "Path": "DreamSheepSoundbank.bnk",
@@ -115,6 +143,14 @@
       "Location": "Memory",
       "ShortName": "Wolf_Bite_2.wav",
       "CachePath": "C4/{C49C3423-F596-51AB-488F-54F4FA79E4DD}.wem"
+     },
+     {
+      "Id": "419676704",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MUS_DreamExploration2hp.wav",
+      "CachePath": "02/{02515505-09CC-2BFA-1E05-EAA2413CF937}.wem"
      },
      {
       "Id": "444430461",
@@ -179,6 +215,22 @@
       "Location": "Memory",
       "ShortName": "UI_Menu_Accept.wav",
       "CachePath": "A6/{A6689069-1E72-9CB1-9A29-DF44540BEB80}.wem"
+     },
+     {
+      "Id": "697435051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MUS_DreamExploration1hp.wav",
+      "CachePath": "F4/{F4DDD38B-02F3-3483-CFF8-FC229966512C}.wem"
+     },
+     {
+      "Id": "699569356",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MUS_DreamExploration.wav",
+      "CachePath": "8A/{8ACBAA5B-331C-A1EB-EF75-5E5395B041BC}.wem"
      },
      {
       "Id": "707543097",
@@ -263,6 +315,54 @@
     ],
     "Events": [
      {
+      "Id": "4141037488",
+      "Name": "Play_Game_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Game_Music",
+      "GUID": "{606DFB3F-76F7-44A7-8677-4FDF166C5027}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1365710999",
+         "Id": "912956111",
+         "GUID": "{71AF1A64-3FB7-43F5-BC4B-C008802A4018}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "699569356"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1365710999",
+         "Id": "678209053",
+         "GUID": "{2DAC398A-436C-4BF1-984B-9DA1C396FF67}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "419676704"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1365710999",
+         "Id": "1064933119",
+         "GUID": "{2CD94061-D7A0-444E-B834-D4C31D3477C4}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "697435051"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "3233440943",
       "Name": "Play_Item_Pop",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_Item_Pop",
@@ -282,8 +382,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Play_MainMenu",
       "GUID": "{A6734E3B-77CD-4D0A-BA8D-671AFED96E26}",
       "DurationType": "OneShot",
-      "DurationMin": "95.07354",
-      "DurationMax": "95.07354",
+      "DurationMin": "0",
+      "DurationMax": "0",
       "MediaRefs": [
        {
         "Id": "735028830"
@@ -499,16 +599,6 @@
       "DurationMax": "0"
      },
      {
-      "Id": "3217125061",
-      "Name": "Stop_All_SFX_01",
-      "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Stop_All_SFX_01",
-      "GUID": "{6F7F97EC-0E23-4B16-87EC-5D1A51177B3A}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
       "Id": "890527358",
       "Name": "Stop_MainMenu",
       "ObjectPath": "\\Events\\Default Work Unit\\ALL\\Stop_MainMenu",
@@ -518,9 +608,37 @@
       "DurationMin": "0",
       "DurationMax": "0"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1365710999",
+      "Name": "HP_State",
+      "ObjectPath": "\\Switches\\Default Work Unit\\HP_State",
+      "GUID": "{88CC1D42-21C6-4E24-939F-FA127B7EC443}",
+      "Switches": [
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Two",
+        "GUID": "{2DAC398A-436C-4BF1-984B-9DA1C396FF67}"
+       },
+       {
+        "Id": "912956111",
+        "Name": "Three",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Three",
+        "GUID": "{71AF1A64-3FB7-43F5-BC4B-C008802A4018}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\One",
+        "GUID": "{2CD94061-D7A0-444E-B834-D4C31D3477C4}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{1060B6AB-3837-470C-267E-CBE625BF0EE3}"
+  "FileHash": "{197B21D2-BCBF-C372-6ED2-0E24DB157CC7}"
  }
 }

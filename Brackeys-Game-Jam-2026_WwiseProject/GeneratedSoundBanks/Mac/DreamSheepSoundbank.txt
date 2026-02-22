@@ -7,12 +7,20 @@ Event	ID	Name			Wwise Object Path	Notes
 	1187732365	Play_Sheep_Land			\Default Work Unit\ALL\Play_Sheep_Land	
 	1339559671	Play_UI_Hover			\Default Work Unit\ALL\Play_UI_Hover	
 	2842361443	Play_Sheep_FS			\Default Work Unit\ALL\Play_Sheep_FS	
-	3217125061	Stop_All_SFX_01			\Default Work Unit\ALL\Stop_All_SFX_01	
 	3233440943	Play_Item_Pop			\Default Work Unit\ALL\Play_Item_Pop	
 	3251744751	Play_Wolf_Bite			\Default Work Unit\ALL\Play_Wolf_Bite	
 	3738780720	Play_MainMenu			\Default Work Unit\ALL\Play_MainMenu	
 	4044401305	Play_UI_Menu_Accept			\Default Work Unit\ALL\Play_UI_Menu_Accept	
+	4141037488	Play_Game_Music			\Default Work Unit\ALL\Play_Game_Music	
 	4152779689	Play_Sheep_Hurt			\Default Work Unit\ALL\Play_Sheep_Hurt	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1365710999	HP_State			\Default Work Unit\HP_State	
+
+Switch	ID	Name	Switch Group			Notes
+	678209053	Two	HP_State			
+	912956111	Three	HP_State			
+	1064933119	One	HP_State			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	201754965	Wolf_Bite_1	.cache\DE\{DE43CA26-02A4-904F-01FA-80578367BB49}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_1		62252
@@ -20,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	373882744	UI_Menu_Decline	.cache\4E\{4ED8B05E-5139-5957-FAFF-895DBAD414B1}.wem		\Containers\Default Work Unit\SFX\UI_Menu_Decline		398512
 	385212567	Sheep_Jump_5	.cache\F4\{F4819279-E4A7-943B-A8E2-161EB8B19163}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_5		53432
 	409051522	Wolf_Bite_2	.cache\C4\{C49C3423-F596-51AB-488F-54F4FA79E4DD}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_2		62252
+	419676704	MUS_DreamExploration2hp	.cache\02\{02515505-09CC-2BFA-1E05-EAA2413CF937}.wem		\Containers\Music\All_Music\Dream Explo Switch Container\Playlist Dream Explo 2hp\2hp\MUS_DreamExploration2hp		21990884
 	444430461	Sheep_FS_4	.cache\B3\{B3669710-D01E-3F91-F881-37187125C773}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_4		14108
 	506851226	Sheep_FS_2	.cache\00\{00924B27-D495-8A04-76C0-9EB6EF04FC73}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_2		18886
 	576631033	Sheep_Hurt_2	.cache\01\{01E9C90E-D438-B1C6-D3BE-D73A8A330711}.wem		\Containers\Default Work Unit\SFX\Sheep_Hurt\Sheep_Hurt_2		72174
@@ -28,8 +37,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	623301980	Wolf_Bite_4	.cache\39\{390676D5-787C-AED2-AD35-4758F28C869E}.wem		\Containers\Default Work Unit\SFX\Wolf_Bite\Wolf_Bite_4		62252
 	644078275	Sheep_Jump_2	.cache\E1\{E16D0606-183A-492D-F111-C9319A29E527}.wem		\Containers\Default Work Unit\SFX\Sheep_Jump\Sheep_Jump_2		67396
 	691261808	UI_Menu_Accept	.cache\A6\{A6689069-1E72-9CB1-9A29-DF44540BEB80}.wem		\Containers\Default Work Unit\SFX\UI_Menu_Accept		388960
+	697435051	MUS_DreamExploration1hp	.cache\F4\{F4DDD38B-02F3-3483-CFF8-FC229966512C}.wem		\Containers\Music\All_Music\Dream Explo Switch Container\Playlist Dream Explo 1hp\1hp\MUS_DreamExploration1hp		21628436
+	699569356	MUS_DreamExploration	.cache\8A\{8ACBAA5B-331C-A1EB-EF75-5E5395B041BC}.wem		\Containers\Music\All_Music\Dream Explo Switch Container\Playlist Dream Explo\3hp\MUS_DreamExploration		22036364
 	707543097	UI_Hover	.cache\28\{285F0867-C847-FE46-B545-1135215F878A}.wem		\Containers\Default Work Unit\SFX\UI_Hover		52712
-	735028830	MUS_MainMenuTheme_119BPM	.cache\74\{7451B900-4EA6-C2F8-2714-2CEAB8AB6075}.wem		\Containers\Music\MainMenu\MUS_MainMenuTheme_119BPM		16771116
+	735028830	MUS_MainMenuTheme_119BPM	.cache\74\{7451B900-4EA6-C2F8-2714-2CEAB8AB6075}.wem		\Containers\Music\All_Music\MainMenu\MainMenu\MUS_MainMenuTheme_119BPM		16771116
 	775184521	Sheep_Hurt_1	.cache\54\{54F1FCD5-8C26-D78A-6EEC-8C7F54A932E6}.wem		\Containers\Default Work Unit\SFX\Sheep_Hurt\Sheep_Hurt_1		71072
 	777613886	Sheep_FS_5	.cache\53\{53F1AE5A-1982-8050-9689-B40AB11464E0}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_5		10802
 	839461202	Sheep_FS_3	.cache\C2\{C2D1AF51-7675-989D-7B1C-D5C15F584342}.wem		\Containers\Default Work Unit\SFX\Sheep_FS\Sheep_FS_3		9332

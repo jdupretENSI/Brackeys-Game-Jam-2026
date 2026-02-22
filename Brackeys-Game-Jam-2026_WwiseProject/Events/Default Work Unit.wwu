@@ -53,7 +53,7 @@
 								<Action Name="" ID="{9DD34668-388F-4A21-9C65-47B50075ED29}" ShortID="935791041">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+											<ObjectRef Name="MainMenu" ID="{A943F8B6-1A70-4B61-BFAE-32D39F686B95}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -150,10 +150,12 @@
 								<Action Name="" ID="{AF9E922E-4712-41C7-86C5-2EB2CFD69576}" ShortID="62990012">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="MainMenu" ID="{E9E5E534-1C61-45BD-B75F-04117B30F6C0}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
+											<ObjectRef Name="MainMenu" ID="{A943F8B6-1A70-4B61-BFAE-32D39F686B95}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -176,20 +178,6 @@
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
 										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="SFX" ID="{BA419A3C-3283-46A0-825E-A06DF5587FA4}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Stop_All_SFX_01" ID="{6F7F97EC-0E23-4B16-87EC-5D1A51177B3A}">
-							<ChildrenList>
-								<Action Name="" ID="{4E3890D9-D08A-4343-BEB3-5270398AB213}" ShortID="853119456">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -227,6 +215,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sheep_FS" ID="{06FD1797-CBA1-4FD5-9A27-45C86A6D0510}" WorkUnitID="{1A058718-B1D7-4CCC-A45D-2894396B802E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Game_Music" ID="{606DFB3F-76F7-44A7-8677-4FDF166C5027}">
+							<ChildrenList>
+								<Action Name="" ID="{AE86E63B-46F1-4209-A896-3C6CEA96F7F8}" ShortID="307268078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dream Explo Switch Container" ID="{0C2A0579-AEAF-4938-8FD3-D812E256C3D3}" WorkUnitID="{C30E0BCF-2409-4702-8DBD-A78285F29401}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

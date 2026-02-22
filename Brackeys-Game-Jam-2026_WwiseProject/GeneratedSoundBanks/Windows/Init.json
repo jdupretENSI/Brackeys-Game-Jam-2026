@@ -56,9 +56,37 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}",
       "Color": "10"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1365710999",
+      "Name": "HP_State",
+      "ObjectPath": "\\Switches\\Default Work Unit\\HP_State",
+      "GUID": "{88CC1D42-21C6-4E24-939F-FA127B7EC443}",
+      "Switches": [
+       {
+        "Id": "678209053",
+        "Name": "Two",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Two",
+        "GUID": "{2DAC398A-436C-4BF1-984B-9DA1C396FF67}"
+       },
+       {
+        "Id": "912956111",
+        "Name": "Three",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\Three",
+        "GUID": "{71AF1A64-3FB7-43F5-BC4B-C008802A4018}"
+       },
+       {
+        "Id": "1064933119",
+        "Name": "One",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HP_State\\One",
+        "GUID": "{2CD94061-D7A0-444E-B834-D4C31D3477C4}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{6DCB06B4-DBD2-629B-C925-184D73D8125B}"
+  "FileHash": "{EF266B76-47FA-5514-1CF6-5FCE68DAF65B}"
  }
 }

@@ -848,6 +848,75 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &618429812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1240512639247785669, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_Animations.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1240512639247785669, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: 'm_Animations.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7400000, guid: 1207c2471f90b8e4493c1bd039ac2782, type: 2}
+    - target: {fileID: 1803601251093074188, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16162
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2628
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8562789181042509873, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713324158773785668, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
+      propertyPath: _footStep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 4341294229f276b4f8f8d9e1dba9e9f3, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12d5c422cdca5bd459a7b4ca9c250b85, type: 3}
 --- !u!1001 &685764071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2399,10 +2468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b7f392d6843fa48a332e5a9afc0675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkAudioListener
-  isDefaultListener: 1
-  bOverrideScalingFactor: 0
-  scalingFactor: -1
-  listenerId: 0
 --- !u!114 &1743695910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2415,18 +2480,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 185f080192cdc474590fc509c095885b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: AK.Wwise.Unity.MonoBehaviour::AkGameObj
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  usePositionOffsetData: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 1
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!114 &1743695911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2872,3 +2925,4 @@ SceneRoots:
   - {fileID: 685764071}
   - {fileID: 483018003}
   - {fileID: 925074371}
+  - {fileID: 618429812}

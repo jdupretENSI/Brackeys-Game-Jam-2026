@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_GAME_MUSIC = 4141037488U;
         static const AkUniqueID PLAY_ITEM_POP = 3233440943U;
         static const AkUniqueID PLAY_MAINMENU = 3738780720U;
         static const AkUniqueID PLAY_SHEEP_FS = 2842361443U;
@@ -25,9 +26,24 @@ namespace AK
         static const AkUniqueID PLAY_WOLF_BITE = 3251744751U;
         static const AkUniqueID PLAY_WOLF_IDLE_LOOP = 399082132U;
         static const AkUniqueID STOP_ALL_SFX = 971107033U;
-        static const AkUniqueID STOP_ALL_SFX_01 = 3217125061U;
         static const AkUniqueID STOP_MAINMENU = 890527358U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace HP_STATE
+        {
+            static const AkUniqueID GROUP = 1365710999U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ONE = 1064933119U;
+                static const AkUniqueID THREE = 912956111U;
+                static const AkUniqueID TWO = 678209053U;
+            } // namespace SWITCH
+        } // namespace HP_STATE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
