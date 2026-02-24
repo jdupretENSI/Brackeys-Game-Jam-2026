@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
 
     void UpdateUI()
     {
-        if (counterText) counterText.text = $"{collectedCount}/3";
+        if (counterText) counterText.text = $"Objets trouvés pour activer le lit : {collectedCount}/3";
     }
 
     void ActivateLit()

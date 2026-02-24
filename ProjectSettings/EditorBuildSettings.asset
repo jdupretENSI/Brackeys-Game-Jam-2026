@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/_Scenes/MainMenu.unity
     guid: 48d8a6ce03f847b46aeb19d84153f31b
   - enabled: 1
-    path: Assets/_Scenes/Main.unity
-    guid: 4276a9e3bcec8ef449620c78c8b9b9e2
+    path: Assets/_Branches/Neo/Level parallax.unity
+    guid: d2a6c040b6c8fc248a34be270982c3b6
   - enabled: 1
     path: Assets/_Scenes/Credits.unity
     guid: cbe42814a92700d42b7df75f98b09a3e
-  - enabled: 1
+  - enabled: 0
+    path: Assets/_Scenes/Main.unity
+    guid: 4276a9e3bcec8ef449620c78c8b9b9e2
+  - enabled: 0
     path: Assets/_Branches/Neo/Level 1.unity
     guid: acd4294e3791b834c991363688492872
   m_configObjects:

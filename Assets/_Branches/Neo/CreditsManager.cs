@@ -1,6 +1,7 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class CreditsManager : MonoBehaviour
 {
@@ -10,6 +11,13 @@ public class CreditsManager : MonoBehaviour
     void Start()
     {
         StartCoroutine(ScrollCredits());
+    }
+
+    public void OnEchap()
+    {
+        string scene = SceneManager.GetActiveScene().name;
+        Debug.Log($"⏸️ Quit {scene}");
+        SceneManager.LoadScene("MainMenu");
     }
 
     IEnumerator ScrollCredits()

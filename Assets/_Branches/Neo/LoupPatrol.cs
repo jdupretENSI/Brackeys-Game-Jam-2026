@@ -36,4 +36,13 @@ public class LoupPatrol : MonoBehaviour
             goingRight = !goingRight;
         }
     }
+
+    // LoupPatrol.cs
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        PlayerHealth health = other.GetComponentInChildren<PlayerHealth>();
+        Debug.Log($"Health enfant: {health != null}");
+        if (health) health.TakeDamage(1);
+    }
+
 }

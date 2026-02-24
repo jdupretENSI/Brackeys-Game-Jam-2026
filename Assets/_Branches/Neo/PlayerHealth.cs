@@ -7,65 +7,72 @@ public class PlayerHealth : MonoBehaviour
     [Header("Santé")]
     public int maxHealth = 3;
 
-    [Header("Respawn")]
-    public Transform[] checkpoints = new Transform[0];
+    [Header("PARALLAX")]
+    public GameObject[] parallaxBackgrounds = new GameObject[3];
 
     private int currentHealth;
-    private int currentCheckpointIndex = 0;
     private bool isDead = false;
+    private bool isInvincible = false;
     private SpriteRenderer sprite;
 
     void Start()
     {
         currentHealth = maxHealth;
-        sprite = GetComponent<SpriteRenderer>();
-        Debug.Log($"❤️ {currentHealth}/{maxHealth} vies");
+        sprite = GetComponentInChildren<SpriteRenderer>();
+        SetParallaxBackground(currentHealth);
+        Debug.Log("PlayerHealth ✅ PRÊT");
     }
 
-    // ❌ SUPPRIMÉ Update() chute !
+    void Awake()
+    {
+        Debug.Log("PlayerHealth AWAKE sur " + gameObject.name + " ✅");
+    }
 
     public void TakeDamage(int damage = 1)
     {
-        if (isDead) return;
+        if (isDead || isInvincible) return;
 
         currentHealth -= damage;
-        Debug.Log($"⚡ VIE PERDUE ! {currentHealth}/{maxHealth}");
+        Debug.Log($"⚡ {currentHealth}/{maxHealth}");
+        SetParallaxBackground(currentHealth);
 
         if (currentHealth <= 0)
         {
-            isDead = true;
+            Debug.Log("💀 GAME OVER");
             SceneManager.LoadScene("MainMenu");
             return;
         }
 
-        Respawn();
+        // FLASH SIMPLE SANS RESPAWN
         StartCoroutine(InvincibilityFlash());
     }
 
-    void Respawn()
+    void SetParallaxBackground(int lives)
     {
-        if (checkpoints.Length > currentCheckpointIndex)
+        for (int i = 0; i < parallaxBackgrounds.Length; i++)
         {
-            transform.position = checkpoints[currentCheckpointIndex].position;
-            Debug.Log($"🔄 RESPAWN {currentCheckpointIndex + 1}");
+            if (parallaxBackgrounds[i] != null)
+                parallaxBackgrounds[i].SetActive(false);
         }
-    }
 
-    public void SetCheckpoint(int index)
-    {
-        currentCheckpointIndex = index;
-        Debug.Log($"✅ CHECKPOINT {index + 1}");
+        int index = 3 - lives;
+        if (index >= 0 && index < parallaxBackgrounds.Length && parallaxBackgrounds[index] != null)
+        {
+            parallaxBackgrounds[index].SetActive(true);
+        }
     }
 
     IEnumerator InvincibilityFlash()
     {
+        isInvincible = true;
         float timer = 0;
         while (timer < 2f)
         {
-            sprite.enabled = !sprite.enabled;
+            if (sprite) sprite.enabled = !sprite.enabled;
             timer += Time.deltaTime;
             yield return null;
         }
-        sprite.enabled = true;
+        if (sprite) sprite.enabled = true;
+        isInvincible = false;
     }
 }

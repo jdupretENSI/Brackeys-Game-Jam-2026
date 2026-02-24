@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -8,7 +9,8 @@ public class PlayerController : MonoBehaviour
 
     [Header("Player")]
     [SerializeField] private Inventory _inventory;
-    
+    [SerializeField] private Animator _animator;
+
     [Header("Movement Settings")]
     [SerializeField] private Rigidbody2D _rb;
     [SerializeField] private float _moveSpeed = 5f;
@@ -54,6 +56,12 @@ public class PlayerController : MonoBehaviour
     {
         Debug.Log("E détecté !");
         gameManager?.Interact();
+    }
+
+    public void OnEchap() // ← EXACT !
+    {
+        Debug.Log("⏸️ Menu Principal");
+        SceneManager.LoadScene("MainMenu");
     }
 
     // Called automatically by the Input System when using "Send Messages" behavior
@@ -108,16 +116,20 @@ public class PlayerController : MonoBehaviour
                 _rb.linearVelocity.y
             );
         }
-        
-        // // Optional: Flip sprite based on movement direction
-        // if (_moveInput.x != 0)
-        // {
-        //     Vector3 scale = transform.localScale;
-        //     scale.x = Mathf.Sign(_moveInput.x);
-        //     transform.localScale = scale;
-        // }
+
+        // Flip sprite based on movement direction
+        if (_moveInput.x != 0)
+        {
+             Vector3 scale = transform.localScale;
+             scale.x = Mathf.Sign(_moveInput.x);
+             transform.localScale = scale;
+        }
+
+        // ✅ ANIMATION IDLE/RUN
+        bool isMoving = Mathf.Abs(_moveInput.x) > 0.1f;
+        _animator.SetBool("IsRunning", isMoving);
     }
-    
+
     private void CheckGrounded()
     {
         // Raycast to check if grounded

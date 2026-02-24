@@ -7,7 +7,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level parallax");
     }
 
     public void OpenSettings()
